@@ -132,7 +132,8 @@ public:
     }
 };
 
-int main() {
+int main() 
+{
     // Example usage
     std::string brokerIP = "your_kafka_broker_ip";
     std::string topic = "your_kafka_topic";
