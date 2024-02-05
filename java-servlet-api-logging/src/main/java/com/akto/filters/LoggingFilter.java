@@ -19,6 +19,8 @@ public class LoggingFilter implements Filter {
     private String topic;
     private Kafka kafka;
     private String akto_account_id;
+    
+    private final ObjectMapper mapper = new ObjectMapper();
 
     @Override
     public void init(FilterConfig filterConfig){
@@ -28,7 +30,6 @@ public class LoggingFilter implements Filter {
         kafka = new Kafka(brokerIP);
     }
 
-    private final ObjectMapper mapper = new ObjectMapper();
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {

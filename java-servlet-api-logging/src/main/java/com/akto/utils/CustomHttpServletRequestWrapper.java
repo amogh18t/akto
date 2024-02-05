@@ -18,6 +18,7 @@ public class CustomHttpServletRequestWrapper extends javax.servlet.http.HttpServ
             InputStream inputStream = request.getInputStream();
 
             if (inputStream != null) {
+                
                 bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 
                 char[] charBuffer = new char[128];

@@ -8,6 +8,7 @@ import java.util.Properties;
 public class Kafka {
     private final Properties kafkaProps = new Properties();
     private final KafkaProducer<String, String> producer;
+    
     public Kafka(String brokerIP) {
         kafkaProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, brokerIP);
         kafkaProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);

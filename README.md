@@ -12,3 +12,13 @@ Create a traffic processing sdk in any language, **apart from java, js and go.**
     6. You may use any simple server for testing pruposes [ e.g. an echo server ]
     7. Bonus: package the SDK, so that it can be used in a plug-and-play manner.
     8. Submit the code repo. Also write steps to use the SDK.
+
+## A simple logging system that captures HTTP request and response information and sends it to a Kafka topic for further processing.
+
+1 Custom Http Servlet Request Wrapper
+2 Custom Http Servlet Response Wrapper
+3 KafkaProducer
+4 LoggingFilter
+
+wrapper design pattern
+filter chain -> doFilter
