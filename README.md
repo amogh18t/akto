@@ -24,5 +24,5 @@ Create a traffic processing sdk in any language, **apart from java, js and go.**
     3. KafkaProducer
     4. LoggingFilter
 
-wrapper design pattern
-filter chain -> doFilter
+    wrapper design pattern
+    filter chain -> doFilter
