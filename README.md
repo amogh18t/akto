@@ -6,7 +6,7 @@ Create a traffic processing sdk
 
 Create a traffic processing sdk in any language, **apart from java, js and go.**
 
-    1. You can take reference from [a link](https://docs.akto.io/traffic-connections/traffic-data-sources/akto-sdk)  and create a simillar SDK.
+    1. You can take reference from <a href="[src/Test.java](https://docs.akto.io/traffic-connections/traffic-data-sources/akto-sdk)">here</a> and create a simillar SDK.
     2. The primary functionalities of a traffic processing SDK are: 
         - Log all requests and their responses of the web server
         - Send the same to a kafka producer
